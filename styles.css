@@ -1,0 +1,168 @@
+:root {
+ --dark-blue: #002533;
+ --grey-blue: #00495d;
+ --blue-three:#007a93;
+ --blue-two:  #00b7d5;
+ --blue-one:  #00ffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 3px;
+}
+
+html {
+  background-color: var(--dark-blue);
+  
+
+}
+
+#first {
+  display: flex;
+  justify-content: center;
+  
+  
+
+  width: 23rem;
+  height: 4rem;
+
+  background-color:var(--grey-blue);
+
+  padding-top: .1rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#first h1 {
+  background-color: var(--blue-three);
+  width: 22rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: .4rem;
+  margin-top: .4rem;
+}
+
+#first h1 div {
+  font-weight: 600;
+  color: var(--grey-blue);
+}
+
+
+
+#container {
+  background-color: var(--grey-blue);
+
+  display: flex;
+  justify-content: center;
+
+  height: max-content;
+  width: 23rem;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+#second {
+  background-color: var(--blue-three);
+  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  width: 21rem;
+
+  border-radius: 3px;
+}
+
+.todo-list {
+  width: 20rem;
+  
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  
+  justify-content: space-between;
+  
+  color: var(--blue-three);
+  font-weight: 600;
+
+  
+
+  font-size: 1rem;
+
+  padding: .5rem;
+
+  background-color: var(--blue-two);
+
+  margin-left: 1rem;
+  margin-top: 1rem;
+
+  transition: background-color 200ms ;
+}
+
+.todo-item:hover {
+  background-color: black;
+}
+
+
+
+.todo-item div {
+  margin-left: 1rem;
+  position: static;
+  
+}
+
+.todo-item .button {
+  display: flex; 
+  width: 1.2rem;
+
+  position: static;
+
+  justify-content: center;
+
+  margin-left: auto;
+   
+  border: none;
+
+  color: red;
+
+  font-size: 1rem;
+  
+}
+
+.todo-new-item {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+
+  height: 2.5rem;
+  width: 19.1rem;
+
+  margin-left: 1rem;
+
+  background-color: var(--blue-one);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.todo-new-item input {
+  border: none;
+  width: 15rem;
+  
+  background-color: var(--blue-one);
+}
+
+
+}
